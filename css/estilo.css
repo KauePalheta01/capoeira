@@ -1,0 +1,96 @@
+*{
+	font-family: century gothic;
+ 	margin: 0;
+ 	font-style: oblique
+
+ }
+.container{
+ 	max-width: 1000px;
+ 	margin: 0 auto;
+
+ }
+header{
+	background-color: #8C7853;
+	color: #fff;
+	padding: 20px;
+}
+nav{
+	background-color: #ccc;
+	text-align: center;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	display: inline;
+	text-transform: uppercase;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #333;
+	border-bottom: 2px solid #8C7853;
+	padding: 10px;
+	display: inline-block;
+}
+nav ul li a:hover{
+    background-color: #8C7853;
+    color: #fff;
+    border-bottom: 2px solid #000;
+}
+#principal{
+	min-height: 500px;
+}
+footer{
+	margin-top: 80px;
+	text-align: center;
+	border-top: 3px solid #8C7853;
+	border-bottom: 3px solid #8C7853;
+	padding: 15px;
+}
+.produto{
+	background-color: #8C7853;
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	opacity: 0.9;
+}
+.produto:hover{
+	opacity: 1;
+}
+.produto figcaption{
+	color: #000;
+	text-align: center;
+}
+section{
+	text-align: center;
+}
+.golpe{
+	width: 500px;
+}
+.titulo{
+	color: #8C7853;
+	text-align: left;
+	padding: 5px;
+	font-size: 31px;
+	font-style: normal;
+	border-bottom: 4px solid #8C7853;
+
+}
+.texto{
+	text-align: justify;
+	padding: 10px;
+	padding-top: 10px;
+	font-size: 18px;
+
+}
+.toques{
+	text-align: left;
+}
+.tabela{
+	display: inline-block;
+	
+}
+.table,  tr, td, th{
+	border: solid 2px #000;
+}
